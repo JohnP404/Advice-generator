@@ -1,0 +1,17 @@
+.card {
+  position: relative;
+  background: hsl(217, 19%, 24%);
+  padding: 3rem;
+  width: 100%;
+  max-width: 542px;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+    padding: 2rem;
+    padding-bottom: 3rem;
+  }
+}
